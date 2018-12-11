@@ -1,2 +1,6 @@
 body{
   background-color: #EFDCCE
+}
+.col-md-2 {
+  line-height: 30px; 
+}
