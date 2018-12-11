@@ -6,7 +6,8 @@ $(document).ready(function(){
     var questionThree = $("input:radio[name=questionThree]:checked").val();
     var questionFour = $("input:radio[name=questionFour]:checked").val();
     var questionFive = $("input:radio[name=questionFive]:checked").val();
-    var result = parseInt(questionOne) + parseInt(questionTwo) + parseInt(questionThree) + parseInt(questionFour) + parseInt(questionFive);
+    var result = parseInt(questionOne) + parseInt(questionTwo) +
+    parseInt(questionThree) + parseInt(questionFour) + parseInt(questionFive);
     $("#result").text("You Score: " + result + "%");
 
     $("button").click(function(){
