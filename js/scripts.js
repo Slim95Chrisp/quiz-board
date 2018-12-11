@@ -1,5 +1,5 @@
-$(document).ready(function(){
-  $("form#quiz").submit(function(event){
+$(document).ready(function() {
+  $("form#quiz").submit(function(event) {
 
     var questionOne = $("input:radio[name=questionOne]:checked").val();
     var questionTwo = $("input:radio[name=questionTwo]:checked").val();
@@ -7,10 +7,10 @@ $(document).ready(function(){
     var questionFour = $("input:radio[name=questionFour]:checked").val();
     var questionFive = $("input:radio[name=questionFive]:checked").val();
     var result = parseInt(questionOne) + parseInt(questionTwo) +
-    parseInt(questionThree) + parseInt(questionFour) + parseInt(questionFive);
+      parseInt(questionThree) + parseInt(questionFour) + parseInt(questionFive);
     $("#result").text("You Score: " + result + "%");
 
-    $("button").click(function(){
+    $("button").click(function() {
       $("#result-showing").toggle();
     })
     $("form#quiz").show();
