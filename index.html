@@ -30,6 +30,7 @@
         <div class="col-md-10">
           <p>Select the <strong>most appropriate</strong> answer from the choices given</p>
           <div class="well">
+            <p><strong>Example</strong></p>
             <p>What is the other name for JavaScript?</p>
             <div class="radio">
               <input type="radio" name="" value="">
@@ -46,7 +47,6 @@
           </div>
           <form id="quiz" action="index.html" method="post">
             <ol>
-              <a name="question1">
               <li>
                 <p>Which is not a data type?</p>
               </li>
@@ -62,8 +62,6 @@
                 <input type="radio" name="questionOne" value="20">
                 Defined
               </div>
-              </a>
-              <a name="question2">
               <li>
                 <p>What does "10===9" return on the JS console?</p>
               </li>
@@ -79,8 +77,6 @@
                 <input type="radio" name="questionTwo" value="20">
                 False
               </div>
-              </a>
-              <a name="question3">
               <li>
                 <p>Which option represents the method concat()?</p>
               </li>
@@ -96,8 +92,6 @@
                 <input type="radio" name="questionThree" value="0">
                 "x/y"
               </div>
-              </a>
-              <a name="question4">
               <li>
                 <p>Select the correctly declared variable.</p>
               </li>
@@ -113,8 +107,6 @@
                 <input type="radio" name="questionFour" value="0">
                 var HisNames = ["ngure", "boro", "chrispus"]
               </div>
-              </a>
-              <a name="question5">
               <li>
                 <p>Which method inserts text into the bottom of a list?</p>
               </li>
@@ -130,15 +122,14 @@
                 <input type="radio" name="questionFive" value="0">
                 .slideDown ( )
               </div>
-              </a>
             </ol>
             <br>
-            <div class="btn btn-danger" id=green>
+            <div class="btn" id=green>
               <button type="Submit" name="submit" id=result class="btn"><strong>Score</strong></button>
             </div>
             <br>
             <br> <div class="reset">
-              <a class="button" href="index.html">Reset</a>
+              <a class="button" href="index.html" type=button-primary ><strong>Reset</strong></a>
             </div> <br>
           </form>
         </div>
