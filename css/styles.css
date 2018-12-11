@@ -2,9 +2,19 @@ body{
   background-color: #EFDCCE
 }
 .col-md-2 {
-  line-height: 40px;
+  line-height: 35px;
+  font-family: serif;
 }
 .reset {
   font-size: 20px;
   font-weight: bolder;
+}
+p {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 23px;
+}
+li{
+  font-family: serif;
+  font-size: 20px;
 }
